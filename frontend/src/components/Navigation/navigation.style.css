@@ -1,0 +1,38 @@
+/* navigation.style.css */
+.custom-navbar {
+  font-size: 1.1rem;
+  background-color: #1c1e22;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.custom-navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.custom-navbar .navbar-toggler {
+  border: none;
+}
+
+.custom-navbar .navbar-toggler:focus {
+  outline: none;
+}
+
+.custom-navbar .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  transition: color 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  .custom-navbar .navbar-collapse {
+    display: flex !important;
+    flex-grow: unset !important;
+  }
+}

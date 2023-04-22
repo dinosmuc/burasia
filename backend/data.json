@@ -1,0 +1,506 @@
+[
+{
+  "model": "api.customer",
+  "pk": 2,
+  "fields": {
+    "name": "Marcel K�beli",
+    "address": "Gehrenb�ckliweg 17, Schindellegi",
+    "work": "Winther-cut, Sommer-cut, Chinagrass, Weeding",
+    "image": "media/ customer_images/mc_jlWl9Rj.jpg"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 3,
+  "fields": {
+    "name": "Mohamad Hojeij",
+    "address": "M�ttliweg 10, Weggis",
+    "work": "Mowing, Weeding, Garden Construction",
+    "image": "media/ customer_images/MH_sVW5jxD.jpg"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 4,
+  "fields": {
+    "name": "Alfredo Luis Gonz�lez Parra",
+    "address": "Magnolienweg 20,  Weggis",
+    "work": "Mowing, Weeding, Planting",
+    "image": "media/ customer_images/AL_CCyPbyo.jpeg"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 5,
+  "fields": {
+    "name": "Ferdinand Mathis",
+    "address": "Buolterlistrasse 40, Hergiswil NW",
+    "work": "Winther-cut, Sommer-cut, Weeding",
+    "image": "media/ customer_images/FM_C1xe4LA.jpg"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 6,
+  "fields": {
+    "name": "Marc-Antoine Mathis",
+    "address": "Haltenriedstr 34,  Meggen",
+    "work": "Winther-cut, Sommer-cut",
+    "image": "media/ customer_images/MA_tcUas4x.jpg"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 7,
+  "fields": {
+    "name": "Claude Esser",
+    "address": "Gehrenb�ckliweg 17, Schindellegi",
+    "work": "Winther-cut, Sommer-cut, Chinagrass, Weeding",
+    "image": "media/ customer_images/house_Z6mWuv1.jpg"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 8,
+  "fields": {
+    "name": "Costi Federica",
+    "address": "M�ttliweg 12,  Weggis",
+    "work": "Winther-cut, Sommer-cut, Construction",
+    "image": "media/ customer_images/house_3esLJVr.jpg"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 9,
+  "fields": {
+    "name": "Rainer Da Cruz",
+    "address": "Juhenstrasse 1 Walchwil",
+    "work": "Mowing",
+    "image": "media/ customer_images/RD_INzKJry.jpg"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 10,
+  "fields": {
+    "name": "Frau Ronei",
+    "address": "Eichholzstrasse 22,  Steinhausen",
+    "work": "Garden Construction",
+    "image": "media/ customer_images/house_n9CJiTP.jpg"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 2,
+  "fields": {
+    "customer": 2,
+    "amount": "1000.00",
+    "date": "2022-09-10"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 3,
+  "fields": {
+    "customer": 2,
+    "amount": "920.00",
+    "date": "2022-09-17"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 5,
+  "fields": {
+    "customer": 2,
+    "amount": "850.00",
+    "date": "2022-10-15"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 6,
+  "fields": {
+    "customer": 2,
+    "amount": "850.00",
+    "date": "2022-11-19"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 7,
+  "fields": {
+    "customer": 2,
+    "amount": "770.00",
+    "date": "2022-11-26"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 8,
+  "fields": {
+    "customer": 2,
+    "amount": "870.00",
+    "date": "2023-02-19"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 10,
+  "fields": {
+    "customer": 2,
+    "amount": "940.00",
+    "date": "2023-04-01"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 11,
+  "fields": {
+    "customer": 3,
+    "amount": "630.00",
+    "date": "2022-04-15"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 12,
+  "fields": {
+    "customer": 3,
+    "amount": "135.00",
+    "date": "2022-04-22"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 13,
+  "fields": {
+    "customer": 3,
+    "amount": "180.00",
+    "date": "2022-04-26"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 14,
+  "fields": {
+    "customer": 3,
+    "amount": "180.00",
+    "date": "2022-04-27"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 15,
+  "fields": {
+    "customer": 3,
+    "amount": "180.00",
+    "date": "2022-04-28"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 16,
+  "fields": {
+    "customer": 3,
+    "amount": "400.00",
+    "date": "2022-04-30"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 17,
+  "fields": {
+    "customer": 3,
+    "amount": "300.00",
+    "date": "2022-05-01"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 18,
+  "fields": {
+    "customer": 3,
+    "amount": "764.00",
+    "date": "2022-05-07"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 19,
+  "fields": {
+    "customer": 3,
+    "amount": "135.00",
+    "date": "2022-05-10"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 20,
+  "fields": {
+    "customer": 3,
+    "amount": "160.00",
+    "date": "2022-06-15"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 21,
+  "fields": {
+    "customer": 3,
+    "amount": "225.00",
+    "date": "2022-06-16"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 22,
+  "fields": {
+    "customer": 3,
+    "amount": "440.00",
+    "date": "2022-06-25"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 23,
+  "fields": {
+    "customer": 3,
+    "amount": "180.00",
+    "date": "2022-10-03"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 24,
+  "fields": {
+    "customer": 4,
+    "amount": "300.00",
+    "date": "2022-04-01"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 25,
+  "fields": {
+    "customer": 4,
+    "amount": "400.00",
+    "date": "2022-04-16"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 26,
+  "fields": {
+    "customer": 4,
+    "amount": "350.00",
+    "date": "2022-08-20"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 27,
+  "fields": {
+    "customer": 4,
+    "amount": "140.00",
+    "date": "2022-09-08"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 28,
+  "fields": {
+    "customer": 4,
+    "amount": "100.00",
+    "date": "2022-10-12"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 29,
+  "fields": {
+    "customer": 4,
+    "amount": "200.00",
+    "date": "2023-04-11"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 30,
+  "fields": {
+    "customer": 4,
+    "amount": "200.00",
+    "date": "2023-04-14"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 31,
+  "fields": {
+    "customer": 5,
+    "amount": "800.00",
+    "date": "2022-04-09"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 32,
+  "fields": {
+    "customer": 5,
+    "amount": "500.00",
+    "date": "2022-08-06"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 33,
+  "fields": {
+    "customer": 5,
+    "amount": "300.00",
+    "date": "2023-02-04"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 34,
+  "fields": {
+    "customer": 5,
+    "amount": "600.00",
+    "date": "2023-04-15"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 35,
+  "fields": {
+    "customer": 6,
+    "amount": "400.00",
+    "date": "2022-06-04"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 36,
+  "fields": {
+    "customer": 6,
+    "amount": "600.00",
+    "date": "2022-06-18"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 37,
+  "fields": {
+    "customer": 6,
+    "amount": "620.00",
+    "date": "2023-03-18"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 38,
+  "fields": {
+    "customer": 7,
+    "amount": "1060.00",
+    "date": "2022-11-24"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 39,
+  "fields": {
+    "customer": 7,
+    "amount": "980.00",
+    "date": "2022-11-12"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 40,
+  "fields": {
+    "customer": 7,
+    "amount": "900.00",
+    "date": "2023-03-25"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 41,
+  "fields": {
+    "customer": 8,
+    "amount": "120.00",
+    "date": "2022-08-22"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 42,
+  "fields": {
+    "customer": 8,
+    "amount": "720.00",
+    "date": "2022-08-27"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 43,
+  "fields": {
+    "customer": 8,
+    "amount": "100.00",
+    "date": "2022-10-08"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 44,
+  "fields": {
+    "customer": 9,
+    "amount": "100.00",
+    "date": "2022-08-22"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 45,
+  "fields": {
+    "customer": 9,
+    "amount": "100.00",
+    "date": "2022-09-30"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 46,
+  "fields": {
+    "customer": 9,
+    "amount": "100.00",
+    "date": "2022-07-05"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 47,
+  "fields": {
+    "customer": 10,
+    "amount": "170.00",
+    "date": "2022-10-22"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 48,
+  "fields": {
+    "customer": 10,
+    "amount": "180.00",
+    "date": "2022-10-23"
+  }
+},
+{
+  "model": "api.payment",
+  "pk": 49,
+  "fields": {
+    "customer": 10,
+    "amount": "180.00",
+    "date": "2022-10-24"
+  }
+}
+]
